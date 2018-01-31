@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.endereco,
+.mapa {
+	float: left;
+}
+.mapa {
+	width: 550px;
+	height: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.endereco {
+	margin-left: 20px; 
+	font-family: "Montserrat";
+}
+
+@media screen and (min-width: 800){
+	.mapa,
+	.endereco {
+		width: 45%;
+	}
+}
+
+
+
